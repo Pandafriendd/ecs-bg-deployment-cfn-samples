@@ -1,13 +1,13 @@
 Parameters:
   Vpc:
     Type: 'AWS::EC2::VPC::Id'
-    Default: vpc-b36590d8
+    Default: vpc-12345678
   Subnet1:
     Type: 'AWS::EC2::Subnet::Id'
-    Default: subnet-9a276de0
+    Default: subnet-12345678
   Subnet2:
     Type: 'AWS::EC2::Subnet::Id'
-    Default: subnet-01a3be69
+    Default: subnet-12345678
   ApplicationService:
     Type: 'String'
     Default: 'ECSDemoService'
